@@ -1,0 +1,193 @@
+V "GNAT Lib v2013"
+M P W=b
+A -gnatA
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK
+
+U contest%b		contest.adb		47c70d82 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.strings.unbounded.text_io%s  a-suteio.adb	a-suteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W queuepkg2%s		queuepkg2.adb		queuepkg2.ali
+W stackpkg2%s		stackpkg2.adb		stackpkg2.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z unchecked_deallocation%s
+
+D ada.ads		20130417131022 3ffc8e18
+D a-charac.ads		20130417131018 2d3ec45b
+D a-chlat1.ads		20130417131018 2825df20
+D a-except.ads		20130417131018 10fcae55
+D a-finali.ads		20130417131020 52ecdc1b
+D a-inteio.ads		20130417131020 f64b89a4
+D a-ioexce.ads		20130417131020 8b9de6cd
+D a-stream.ads		20130417131020 2ca4ee37
+D a-string.ads		20130417131020 90ac6797
+D a-strmap.ads		20130417131020 9cb836fb
+D a-strunb.ads		20130417131020 3f91d4c5
+D a-suteio.ads		20130417131020 26d8e9aa
+D a-tags.ads		20130417131022 6c0509d0
+D a-textio.ads		20130417131022 386df5d4
+D a-tiinio.ads		20130417131022 aa04e5d6
+D a-unccon.ads		20130417131022 f9eb8f06
+D contest.adb		20131206034916 7f6b8cd6
+D interfac.ads		20130417131026 cb4a8015
+D i-cstrea.ads		20130417131026 8128536b
+D queuepkg2.ads		20131204000424 ca756449
+D queuepkg2.adb		20131206035450 7f4a7826
+D stackpkg2.ads		20131204000532 25b6a402
+D stackpkg2.adb		20131206035450 f09b568a
+D system.ads		20130417131036 5fc8ae56
+D s-atocou.ads		20130417131028 4a9c6cb4
+D s-atocou.adb		20130417131028 c864ec10
+D s-conca2.ads		20130417131028 fbd0f2fc
+D s-crtl.ads		20130417131028 dfcfca61
+D s-exctab.ads		20130417131028 66e51330
+D s-ficobl.ads		20130417131028 55a71d43
+D s-finmas.ads		20130417131028 b95bb341
+D s-finroo.ads		20130417131028 4ff27390
+D s-maccod.ads		20130417131030 0fbb7bce
+D s-parame.ads		20130417131032 b6e20cc0
+D s-pooglo.ads		20130417131032 542f33d0
+D s-secsta.ads		20130417131032 eea35a36
+D s-soflin.ads		20130417131032 24c8153c
+D s-stache.ads		20130417131032 596fc1b4
+D s-stalib.ads		20130417131032 f78bcf95
+D s-stoele.ads		20130417131032 facd7d98
+D s-stoele.adb		20130417131032 afc5dc80
+D s-stopoo.ads		20130417131032 7b8fbeee
+D s-stposu.ads		20130417131032 ffeba1c5
+D s-stratt.ads		20130417131032 aedef97e
+D s-traent.ads		20130417131032 5221ee41
+D s-unstyp.ads		20130417131034 6ae15c76
+D s-wchcon.ads		20130417131034 bfeb2e3d
+D unchdeal.ads		20130417131036 214516a4
+X 1 ada.ads
+16K9*Ada 19e8 17|46r6 46r23 47r6 47r31 48r6 48r33 49r6 49r41
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[15|45] 17|47w10 47r35
+X 9 a-string.ads
+16K13*Strings 35e16 17|48r10 48r37 49r10 49r45
+X 11 a-strunb.ads
+76K21*Unbounded 489e26 17|48w18 48r45 49r18 49r53
+X 12 a-suteio.ads
+39K31*Text_IO 61e34 17|49w28 49r63
+X 14 a-textio.ads
+49K13*Text_IO 471e16 17|46w10 46r27
+166U14*New_Line 17|423s10
+184V13*End_Of_File{boolean} 17|101s17
+240U14*Get 17|104s10
+242U14*Put 17|254s10 417s10 418s10
+263U14*Put_Line 17|123s10 128s10 129s10 411s7
+X 15 a-tiinio.ads
+55U14*Get 17|110s10[6|18]
+65U14*Put 17|416s10[6|18] 419s10[6|18] 420s10[6|18] 421s10[6|18] 422s10[6|18]
+X 17 contest.adb
+51U11*Contest 51b11 476l5 476t12
+57R9 Player 65e14 68r41 72r41 97r19 144r34 144r55 144r70 202r43 202r68 245r20
+. 246r20 289r19 290r16 347r19 348r19 386r19 407r19
+59a7 Name{string} 105m20 129r62 418r24
+60i7 ArrivalNumber{integer} 108m20 178r21 178r45 422r24
+61i7 SkillLevel{integer} 111m20 149r18 149r40 151r21 151r42 419r24
+62i7 NumberOfWins{integer} 113m20 158r21 158r45 160r21 160r44 209m18 209r42
+. 218m18 218r42 309m26 309r52 314m23 314r46 420r24
+63i7 NumberOfLosses{integer} 114m20 167r21 167r47 169r21 169r46 210m18 210r44
+. 219m18 219r44 310m23 310r48 315m26 315r54 421r24
+68K12 playerStack[22|10] 69r8
+72K12 playerQueue[20|11] 73r8
+92U14 getInput 92b14 92<24 92<50 133l8 133t16 251s7
+92r24 arrivalQueue{20|13R10[72]} 117m29 121r18 129r48
+92b50 isValid{boolean} 122m10 127m10
+94a7 nme{string} 104m14 105r28
+95i7 arvNum{integer} 107m10 107r20 108r37 126r10
+96i7 skllLev{integer} 110m14 111r34
+97r7 tmpPlayer{57R9} 105m10 108m10 111m10 113m10 114m10 117r18
+144V13 doMatch{57R9} 144b13 144>21 144>42 186l8 186t15 206s20 308s28
+144r21 player1{57R9} 149r10 151r13 152r20 158r13 160r13 161r20 167r13 169r13
+. 172r20 178r13 181r20
+144r42 player2{57R9} 149r32 151r34 154r20 158r37 160r36 163r20 167r39 169r38
+. 170r20 178r37 179r20
+202U14 updateStats 202b14 202=26 202=51 203<26 203<44 226l8 226t19 266s13
+. 364s13
+202r26 player1{57R9} 206r10 206r28 209m10 209r34 213r18 219m10 219r36 222r18
+202r51 player2{57R9} 206r37 210m10 210r36 214r18 218m10 218r34 221r18
+203r26 winQ{20|13R10[72]} 213m27 221m27
+203r44 loseQ{20|13R10[72]} 214m27 222m27
+243U14 prelimRound 243b14 243<27 243<48 244<27 273l8 273t19 450s7
+243r27 winnerQ{20|13R10[72]} 261m33 266m49
+243r48 loserQ{20|13R10[72]} 266m58
+244b27 isValid{boolean} 251m26 253r10
+245r7 tmpPlayer1{57R9} 257m10 261r21 266m25 266r25
+246r7 tmpPlayer2{57R9} 264m13 266m37 266r37
+247r7 tmpQueue{20|13R10[72]} 251m16 255r25 257r30 258m18 258r18 260r21 264r33
+. 265m21 265r21
+288U14 eliminationRound 288b14 288=31 288<55 330l8 330t24 390s7 453s10
+288r31 loserQ{20|13R10[72]} 297r29 298m18 300r21 305r29 306m21 324m35
+288p55 results{22|12P14[68]} 312m29 317m32
+289r7 tmpPlayer{57R9} 297m10 301r21 308r16 308r36 309m16 309r42 311r24 315m16
+. 315r44 317r21 323m16 324r24
+290r7 tmpOpp{57R9} 305m13 308r47 310m16 310r41 312r21 314m16 314r39 316r24
+291r7 tmpQueue{20|13R10[72]} 301m32 301r32 311m35 311r35 316m32 316r32 322r28
+. 323r35 325m24 325r24
+292b7 finished{boolean} 295r17 302m13
+346U14 winnerRound 346b14 346<26 346<47 370l8 370t19 452s9
+346r26 winnerQ{20|13R10[72]} 354r30 355m18 357r21 358m33 362r33 363m21 364m49
+346r47 loserQ{20|13R10[72]} 364m58
+347r7 tmpPlayer1{57R9} 354m10 358r21 364m25 364r25
+348r7 tmpPlayer2{57R9} 362m13 364m37 364r37
+349b7 finished{boolean} 352r17 359m13
+384U14 finalRound 384b14 384>25 384<45 385<24 392l8 392t18 454s10
+384r25 winnerQ{20|13R10[72]} 388r26
+384r45 loserQ{20|13R10[72]} 389m26 390m24 391r18
+385p24 resultsStack{22|12P14[68]} 390m32 391m27
+386r7 tmpPlayer{57R9} 388m7 389r15
+406U14 outputResults 406b14 406<29 427l8 427t21 455s10
+406p29 results{22|12P14[68]} 413r25 415r27 424m14
+407r7 tmpPlayer{57R9} 415m10 418r14 419r14 420r14 421r14 422r14
+408i7 place{integer} 414m10 414r19 416r14
+439U14 executeContest 439b14 459l8 459t22 474s4
+440r7 winnerQ{20|13R10[72]} 450m19 452m21 454r21
+441r7 loserQ{20|13R10[72]} 450m28 452m30 453m27 453r27 454m30
+442p8 results{22|12P14[68]} 453m35 453r35 454m38 454r38 455m24 455r24
+443b7 isValid{boolean} 450m36 451r10
+444r7 tmpQueue{20|13R10[72]}
+X 20 queuepkg2.ads
+11k9*QueuePkg2 17|44w6 72r31 20|41e14
+13R10 Queue 17|92r43[72] 203r37[72] 203r56[72] 243r41[72] 243r61[72] 247r18[72]
+. 288r47[72] 291r18[72] 346r40[72] 346r60[72] 384r38[72] 384r58[72] 440r18[72]
+. 441r16[72] 444r18[72]
+17V15 isEmpty{boolean} 17|121s10[72] 255s17[72] 260s13[72] 300s13[72] 322s20[72]
+. 357s13[72]
+20V15 front{17|57R9} 17|129s42[72] 257s24[72] 264s27[72] 297s23[72] 305s23[72]
+. 323s29[72] 354s24[72] 362s27[72] 388s20[72] 391s12[72]
+22U15 enqueue 17|117s10[72] 213s10[72] 214s10[72] 221s10[72] 222s10[72] 261s13[72]
+. 301s13[72] 311s16[72] 316s16[72] 324s16[72] 358s13[72] 389s7[72]
+23U15 dequeue 17|258s10[72] 265s13[72] 298s10[72] 306s13[72] 325s16[72] 355s10[72]
+. 363s13[72]
+X 22 stackpkg2.ads
+10k9*StackPkg2 17|45w6 68r31 22|34e14
+12P14 Stack(25R14[17|68]) 17|288r69[68] 385r43[68] 406r43[68] 442r18[68]
+16V18 isEmpty{boolean} 17|413s17[68]
+19U19 push 17|312s16[68] 317s16[68] 391s7[68]
+20U19 pop 17|424s10[68]
+22V18 top{17|57R9} 17|415s23[68]
+25R14 StackNode
+

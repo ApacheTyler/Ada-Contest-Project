@@ -1,0 +1,7 @@
+Julio               2
+Hernandez           3
+Fernando            4
+Ricky               2
+Sally               8
+Tyler               10
+Bill                1
